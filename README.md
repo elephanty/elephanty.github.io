@@ -1,46 +1,47 @@
-### 简介
-  
-  该博客，是参考Jekyll-now进行搭建的，界面简单，只是额外添加了一个分类。主要是自己撰写一些技术文档，个人技术总结。
-  
-#### 添加本地图片的方式
-  存到images下面，如果想要技能预览又能显示，可以采用如下方式
-  ```
-  <img src="../../../images/android/dalvik/framework.png"  alt="Android进程框架" width="800"/>
+### 博客地址
 
-```
-#### 添加Top返回
+Github托管的是以前Jekyll版本的源码，现在博客用Hexo重新搭建
+#### 预览
 
-参考<http://www.smslit.top/jekyll/2015/10/28/backToTop-Jekyll.html>
-```
-<div id="backtop">
-   <a href="#">TOP</a>
-</div> 
-```
- 添加按钮的css样式，可以按照自己喜欢修改样式即可。
-```
-#backtop a { /* back to top button */
-    text-align: center;
-    line-height: 50px;
-    font-size: 16px;
-    width:50px;
-    height: 50px;
-    position: fixed;
-    bottom: 10px; /* 小按钮到浏览器底边的距离 */
-    right: 60px; /* 小按钮到浏览器右边框的距离 */
-    color: rgb(64,120,192); /* 小按钮中文字的颜色 */
-    z-index: 1000;
-    background: #fff; /* 小按钮底色 */
-    padding: auto; /* 小按钮中文字到按钮边缘的距离 */
-    border-radius: 50px; /* 小按钮圆角的弯曲程度（半径）*/
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    font-weight: bold; /* 小按钮中文字的粗细 */
-    text-decoration: none !important;
-    box-shadow:0 1px 2px rgba(0,0,0,.15), 0 1px 0 #ffffff inset;
-}
+* Jekyll版本：EZLippi.github.io
+* Hexo 版本： [www.ezlippi.com](http://www.ezlippi.com)
+* Hexo版本源码：[https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/](https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/)
 
-#backtop a:hover { /* 小按钮上有鼠标悬停时 */
-    background: rgba(64,120,192,0.8); /* 小按钮的底色 */
-    color: #fff; /* 文字颜色 */
-}
-```
+### 使用Jekyll版本作为博客模板，仅需如下几步：
+
+1. 首先Fork或Download一份本项目代码。 
+2. 修改_config.yaml及about.md文件，以变更个人信息。 
+3. 修改_include目录下相关文件，以配置网站统计(analytics.html)，网友评论(comment.html)，右侧栏目(categories.html),热门文章(hot.html),友情链接(links.html)等。 
+4. 修改CNAME文件，以绑定自己的域名。 
+5. 删除_posts下文章，换成你自己的。 
+6. 去谷歌自定义搜索新建一个你的搜索引擎，把你的Id替换根目录下search.html我的ID
+7. 最后，push到你自己的博客Repo~ 
+
+ *^_^*如果愿意，Star本项目一个吧~ 
+
+### 本项目使用了
+
+1. CNZZ的网站统计服务，官网：http://cnzz.com 
+2. 多说的评论功能，官网:http://duoshuo.com/
+
+### 联系方式
+
+联系方式： Email(ouyanglip@gmail.com) 
+
+
+### 使用本项目作模板的博客链接
+
+* http://www.94geek.com  
+* http://www.haidaoxiaofei.me  
+* http://www.malphi.net  
+* http://happyaround.com  
+* http://tencentlocation.github.io  
+* http://wtaps.github.io 
+* http://maoshu.cc
+* http://x-carto.com/
+* http://flypeom.site
+
+## 2016-02-25更新
+
+* 本博客由Jekyl迁移到Hexo,博客地址[ezlippi](www.ezlippi.com),源码托管在了国内的[Coding.net](https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/)
+* 使用Hexo搭建个人博客具体教程参考[Jekyll迁移到Hexo建立个人博客](http://www.ezlippi.com/blog/2016/02/jekyll-to-hexo.html)
