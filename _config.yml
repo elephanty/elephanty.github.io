@@ -98,7 +98,7 @@ disqus:
 #         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: elephanty
+    owner: elephanty   
     repo: elephanty.github.io
     clientID: 4ee262b9052452be18ca
     clientSecret: 9c73569a53abd24dab52dca7f49315df56a65d07
